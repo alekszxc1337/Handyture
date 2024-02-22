@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://getwallpapers.com/wallpaper/full/9/9/f/291544.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  font-family: 'Anta', sans-serif; 
+  font-weight: 400;
+  font-style: normal;
+}
+
+.login-container {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 350px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 160px); /* Adjusted width to accommodate label */
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+label {
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  width: auto;
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px; /* Added margin to separate from the footer */
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px; /* Added margin to push it below the button */
+}
